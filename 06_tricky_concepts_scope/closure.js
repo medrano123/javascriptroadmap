@@ -38,4 +38,6 @@ const init = () => {
 }
 
 const myfunc = init();
-myfunc()
+myfunc();
+
+// 
