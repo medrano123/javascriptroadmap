@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .menu-item {
+            background-color: black;
+            color: white
+        }
+        .menu-item.active{
+            background-color: white;
+            color: black
+        }
+    </style>
 </head>
 <body>
+
+    <h1>Hello World IM ALIVE</h1>
+    <h1>DOM - Document Object Model</h1>
+    <h2> Tree of nested HTML elements that are defined while designing the HTML page</h2>
+
+    <ul>
+        <li onclick="menuClicked(this)" class="menu-item">Menu 1</li>
+        <li onclick="menuClicked(this)" class="menu-item active">Menu 2</li>
+        <li onclick="menuClicked(this)" class="menu-item">Menu 3</li>
+        <li onclick="menuClicked(this)" class="menu-item">Menu 4</li>
+    </ul>
+    <!--4
+    <h1 class="test abc test1 " id="heading">TEST</h1>
+    <h2 class="test">TEST 1 </h2>
+    <h2 class="test">TEST 2 </h2>
+    <button>Submit</button>
+    -->
     <script src="script.js"></script>
 </body>
 </html>
