@@ -1,4 +1,5 @@
 // Includes does this array include some element
+// is case sensitive
 
 const bookshelf = ["Moby Dick", "Little Women", "The Great Gatsby", "Pride And Prejudice"];
 
